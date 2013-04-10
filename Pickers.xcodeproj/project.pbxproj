@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4BCCBBB1715A9FD009F481C /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BCCBBA1715A9FD009F481C /* TabBarController.xib */; };
 		A4F717211713F6DF00079D98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F717201713F6DF00079D98 /* UIKit.framework */; };
 		A4F717231713F6DF00079D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F717221713F6DF00079D98 /* Foundation.framework */; };
 		A4F717251713F6DF00079D98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F717241713F6DF00079D98 /* CoreGraphics.framework */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4BCCBBA1715A9FD009F481C /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 		A4F7171D1713F6DF00079D98 /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F717201713F6DF00079D98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4F717221713F6DF00079D98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -121,6 +123,7 @@
 				A4F717511714022100079D98 /* BIDCustomPickerViewController.h */,
 				A4F717521714022100079D98 /* BIDCustomPickerViewController.m */,
 				A4F717531714022100079D98 /* BIDCustomPickerViewController.xib */,
+				A4BCCBBA1715A9FD009F481C /* TabBarController.xib */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				A4F7174B171401DF00079D98 /* BIDDoubleComponentPickerViewController.xib in Resources */,
 				A4F717501714020500079D98 /* BIDDependentComponentPickerViewController.xib in Resources */,
 				A4F717551714022100079D98 /* BIDCustomPickerViewController.xib in Resources */,
+				A4BCCBBB1715A9FD009F481C /* TabBarController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +335,7 @@
 				A4F7173C1713F6E000079D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
