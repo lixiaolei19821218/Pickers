@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+		A484A2961716E76B00BEDF09 /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A484A2911716E76B00BEDF09 /* clockicon.png */; };
+		A484A2971716E76B00BEDF09 /* dependenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = A484A2921716E76B00BEDF09 /* dependenticon.png */; };
+		A484A2981716E76B00BEDF09 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A484A2931716E76B00BEDF09 /* doubleicon.png */; };
+		A484A2991716E76B00BEDF09 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A484A2941716E76B00BEDF09 /* singleicon.png */; };
+		A484A29A1716E76B00BEDF09 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A484A2951716E76B00BEDF09 /* toolicon.png */; };
 		A4BCCBBB1715A9FD009F481C /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4BCCBBA1715A9FD009F481C /* TabBarController.xib */; };
+=======
+>>>>>>> parent of 7167954... On Page 182
 		A4F717211713F6DF00079D98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F717201713F6DF00079D98 /* UIKit.framework */; };
 		A4F717231713F6DF00079D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F717221713F6DF00079D98 /* Foundation.framework */; };
 		A4F717251713F6DF00079D98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F717241713F6DF00079D98 /* CoreGraphics.framework */; };
@@ -30,7 +38,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+		A484A2911716E76B00BEDF09 /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		A484A2921716E76B00BEDF09 /* dependenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dependenticon.png; sourceTree = "<group>"; };
+		A484A2931716E76B00BEDF09 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		A484A2941716E76B00BEDF09 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		A484A2951716E76B00BEDF09 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 		A4BCCBBA1715A9FD009F481C /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of 7167954... On Page 182
 		A4F7171D1713F6DF00079D98 /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F717201713F6DF00079D98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4F717221713F6DF00079D98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,7 +74,7 @@
 		A4F7174E1714020500079D98 /* BIDDependentComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDependentComponentPickerViewController.xib; sourceTree = "<group>"; };
 		A4F717511714022100079D98 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
 		A4F717521714022100079D98 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
-		A4F717531714022100079D98 /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
+		A4F717531714022100079D98 /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BIDCustomPickerViewController.xib; path = Pickers/BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +91,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A484A2901716E76B00BEDF09 /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				A484A2911716E76B00BEDF09 /* clockicon.png */,
+				A484A2921716E76B00BEDF09 /* dependenticon.png */,
+				A484A2931716E76B00BEDF09 /* doubleicon.png */,
+				A484A2941716E76B00BEDF09 /* singleicon.png */,
+				A484A2951716E76B00BEDF09 /* toolicon.png */,
+			);
+			path = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
 		A4F717141713F6DF00079D98 = {
 			isa = PBXGroup;
 			children = (
 				A4F717261713F6E000079D98 /* Pickers */,
 				A4F7171F1713F6DF00079D98 /* Frameworks */,
 				A4F7171E1713F6DF00079D98 /* Products */,
+				A4F717531714022100079D98 /* BIDCustomPickerViewController.xib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +134,7 @@
 		A4F717261713F6E000079D98 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				A484A2901716E76B00BEDF09 /* Tab Bar Icons */,
 				A4F7172F1713F6E000079D98 /* BIDAppDelegate.h */,
 				A4F717301713F6E000079D98 /* BIDAppDelegate.m */,
 				A4F717271713F6E000079D98 /* Supporting Files */,
@@ -122,8 +152,11 @@
 				A4F7174E1714020500079D98 /* BIDDependentComponentPickerViewController.xib */,
 				A4F717511714022100079D98 /* BIDCustomPickerViewController.h */,
 				A4F717521714022100079D98 /* BIDCustomPickerViewController.m */,
-				A4F717531714022100079D98 /* BIDCustomPickerViewController.xib */,
+<<<<<<< HEAD
 				A4BCCBBA1715A9FD009F481C /* TabBarController.xib */,
+=======
+				A4F717531714022100079D98 /* BIDCustomPickerViewController.xib */,
+>>>>>>> parent of 7167954... On Page 182
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -203,7 +236,15 @@
 				A4F7174B171401DF00079D98 /* BIDDoubleComponentPickerViewController.xib in Resources */,
 				A4F717501714020500079D98 /* BIDDependentComponentPickerViewController.xib in Resources */,
 				A4F717551714022100079D98 /* BIDCustomPickerViewController.xib in Resources */,
+<<<<<<< HEAD
 				A4BCCBBB1715A9FD009F481C /* TabBarController.xib in Resources */,
+				A484A2961716E76B00BEDF09 /* clockicon.png in Resources */,
+				A484A2971716E76B00BEDF09 /* dependenticon.png in Resources */,
+				A484A2981716E76B00BEDF09 /* doubleicon.png in Resources */,
+				A484A2991716E76B00BEDF09 /* singleicon.png in Resources */,
+				A484A29A1716E76B00BEDF09 /* toolicon.png in Resources */,
+=======
+>>>>>>> parent of 7167954... On Page 182
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +376,6 @@
 				A4F7173C1713F6E000079D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

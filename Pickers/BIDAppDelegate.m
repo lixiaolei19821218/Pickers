@@ -14,8 +14,6 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    [[NSBundle mainBundle] loadNibNamed:@"TabBarController" owner:self options:nil];
-    self.window.rootViewController = self.rootController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -48,4 +46,13 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (IBAction)buttonTouch:(UIButton *)sender {
+    UIAlertView *alert = [[UIAlertView alloc]
+                          initWithTitle:@"Yellow View Button Pressed"
+                          message:@"You pressed the button on the yellow view"
+                          delegate:nil
+                          cancelButtonTitle:@"Yep, I did."
+                          otherButtonTitles:nil];
+    [alert show];
+}
 @end

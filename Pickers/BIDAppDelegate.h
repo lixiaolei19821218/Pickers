@@ -11,6 +11,10 @@
 @interface BIDAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+<<<<<<< HEAD
 @property (strong, nonatomic) IBOutlet UITabBarController *rootController;
+- (IBAction)buttonTouch:(UIButton *)sender;
+=======
+>>>>>>> parent of 7167954... On Page 182
 
 @end
