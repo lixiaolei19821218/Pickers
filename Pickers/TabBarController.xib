@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1552</int>
-		<string key="IBDocument.SystemVersion">12D78</string>
+		<string key="IBDocument.SystemVersion">12C60</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.37</string>
-		<string key="IBDocument.HIToolboxVersion">626.00</string>
+		<string key="IBDocument.AppKitVersion">1187.34</string>
+		<string key="IBDocument.HIToolboxVersion">625.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">2083</string>
@@ -60,17 +60,18 @@
 				<bool key="IBUIDefinesPresentationContext">YES</bool>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIHorizontal">NO</bool>
-				<object class="IBUIViewController" key="IBUISelectedViewController" id="38490559">
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="947812933">
-						<string key="IBUITitle">Date</string>
+				<object class="IBUIViewController" key="IBUISelectedViewController" id="402542621">
+					<object class="IBUITabBarItem" key="IBUITabBarItem" id="211925595">
+						<string key="IBUITitle">Single</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">clockicon.png</string>
+							<string key="NSResourceName">singleicon.png</string>
 						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
+					<array key="IBUIToolbarItems" id="0"/>
 					<reference key="IBUIParentViewController" ref="353788869"/>
-					<string key="IBUINibName">BIDCustomPickerViewController</string>
+					<string key="IBUINibName">BIDSingleComponentPickerViewController</string>
 					<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 						<int key="IBUIInterfaceOrientation">1</int>
 						<int key="interfaceOrientation">1</int>
@@ -79,19 +80,17 @@
 					<bool key="IBUIHorizontal">NO</bool>
 				</object>
 				<array class="NSMutableArray" key="IBUIViewControllers">
-					<reference ref="38490559"/>
-					<object class="IBUIViewController" id="402542621">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="211925595">
-							<string key="IBUITitle">Single</string>
+					<object class="IBUIViewController" id="38490559">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="947812933">
+							<string key="IBUITitle">Date</string>
 							<object class="NSCustomResource" key="IBUIImage">
 								<string key="NSClassName">NSImage</string>
-								<string key="NSResourceName">singleicon.png</string>
+								<string key="NSResourceName">clockicon.png</string>
 							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
-						<array key="IBUIToolbarItems" id="0"/>
 						<reference key="IBUIParentViewController" ref="353788869"/>
-						<string key="IBUINibName">BIDSingleComponentPickerViewController</string>
+						<string key="IBUINibName">BIDDatePickerViewController</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
 							<int key="interfaceOrientation">1</int>
@@ -99,6 +98,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
+					<reference ref="402542621"/>
 					<object class="IBUIViewController" id="50485180">
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="905751641">
 							<string key="IBUITitle">Double</string>
@@ -161,6 +161,7 @@
 					<int key="NSvFlags">266</int>
 					<string key="NSFrame">{{0, 431}, {320, 49}}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSNextKeyView"/>
 					<string key="NSReuseIdentifierKey">_NS:29</string>
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">3</int>
@@ -205,10 +206,10 @@
 						<reference key="object" ref="353788869"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="757397579"/>
-							<reference ref="38490559"/>
 							<reference ref="402542621"/>
-							<reference ref="50485180"/>
 							<reference ref="198531489"/>
+							<reference ref="38490559"/>
+							<reference ref="50485180"/>
 							<reference ref="88883490"/>
 						</array>
 						<reference key="parent" ref="0"/>
