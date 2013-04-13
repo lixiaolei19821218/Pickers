@@ -56,4 +56,11 @@
 {
     return [self.characterNames count];
 }
+
+#pragma mark Picker Delegate Methods
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    return self.characterNames[row];
+}
+
 @end
