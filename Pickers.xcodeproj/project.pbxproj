@@ -33,6 +33,15 @@
 		A40E92561716F2C400129758 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A40E92511716F2C400129758 /* toolicon.png */; };
 		A40E92581716F32400129758 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A40E92571716F32400129758 /* TabBarController.xib */; };
 		A49790391719A94B00EEE9C6 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = A49790381719A94B00EEE9C6 /* statedictionary.plist */; };
+		A4D1BFD0171A746200BFC259 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D1BFCA171A746200BFC259 /* apple.png */; };
+		A4D1BFD1171A746200BFC259 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D1BFCB171A746200BFC259 /* bar.png */; };
+		A4D1BFD2171A746200BFC259 /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D1BFCC171A746200BFC259 /* cherry.png */; };
+		A4D1BFD3171A746200BFC259 /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D1BFCD171A746200BFC259 /* crown.png */; };
+		A4D1BFD4171A746200BFC259 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D1BFCE171A746200BFC259 /* lemon.png */; };
+		A4D1BFD5171A746200BFC259 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D1BFCF171A746200BFC259 /* seven.png */; };
+		A4D1BFD9171A802200BFC259 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = A4D1BFD7171A802200BFC259 /* crunch.wav */; };
+		A4D1BFDA171A802200BFC259 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = A4D1BFD8171A802200BFC259 /* win.wav */; };
+		A4D1BFDC171A899500BFC259 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D1BFDB171A899500BFC259 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +80,15 @@
 		A40E92511716F2C400129758 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 		A40E92571716F32400129758 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 		A49790381719A94B00EEE9C6 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		A4D1BFCA171A746200BFC259 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		A4D1BFCB171A746200BFC259 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		A4D1BFCC171A746200BFC259 /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		A4D1BFCD171A746200BFC259 /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		A4D1BFCE171A746200BFC259 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		A4D1BFCF171A746200BFC259 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		A4D1BFD7171A802200BFC259 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		A4D1BFD8171A802200BFC259 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		A4D1BFDB171A899500BFC259 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D1BFDC171A899500BFC259 /* AudioToolbox.framework in Frameworks */,
 				A40E92171716F19000129758 /* UIKit.framework in Frameworks */,
 				A40E92191716F19000129758 /* Foundation.framework in Frameworks */,
 				A40E921B1716F19000129758 /* CoreGraphics.framework in Frameworks */,
@@ -90,6 +109,8 @@
 		A40E920A1716F19000129758 = {
 			isa = PBXGroup;
 			children = (
+				A4D1BFDB171A899500BFC259 /* AudioToolbox.framework */,
+				A4D1BFC9171A746200BFC259 /* Custom Picker Images */,
 				A49790381719A94B00EEE9C6 /* statedictionary.plist */,
 				A40E921C1716F19000129758 /* Pickers */,
 				A40E92151716F19000129758 /* Frameworks */,
@@ -118,6 +139,7 @@
 		A40E921C1716F19000129758 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				A4D1BFD6171A802200BFC259 /* Custom Picker Sounds */,
 				A40E92251716F19000129758 /* BIDAppDelegate.h */,
 				A40E92261716F19000129758 /* BIDAppDelegate.m */,
 				A40E92571716F32400129758 /* TabBarController.xib */,
@@ -166,6 +188,28 @@
 				A40E92511716F2C400129758 /* toolicon.png */,
 			);
 			path = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
+		A4D1BFC9171A746200BFC259 /* Custom Picker Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4D1BFCA171A746200BFC259 /* apple.png */,
+				A4D1BFCB171A746200BFC259 /* bar.png */,
+				A4D1BFCC171A746200BFC259 /* cherry.png */,
+				A4D1BFCD171A746200BFC259 /* crown.png */,
+				A4D1BFCE171A746200BFC259 /* lemon.png */,
+				A4D1BFCF171A746200BFC259 /* seven.png */,
+			);
+			path = "Custom Picker Images";
+			sourceTree = "<group>";
+		};
+		A4D1BFD6171A802200BFC259 /* Custom Picker Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A4D1BFD7171A802200BFC259 /* crunch.wav */,
+				A4D1BFD8171A802200BFC259 /* win.wav */,
+			);
+			path = "Custom Picker Sounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +280,14 @@
 				A40E92561716F2C400129758 /* toolicon.png in Resources */,
 				A40E92581716F32400129758 /* TabBarController.xib in Resources */,
 				A49790391719A94B00EEE9C6 /* statedictionary.plist in Resources */,
+				A4D1BFD0171A746200BFC259 /* apple.png in Resources */,
+				A4D1BFD1171A746200BFC259 /* bar.png in Resources */,
+				A4D1BFD2171A746200BFC259 /* cherry.png in Resources */,
+				A4D1BFD3171A746200BFC259 /* crown.png in Resources */,
+				A4D1BFD4171A746200BFC259 /* lemon.png in Resources */,
+				A4D1BFD5171A746200BFC259 /* seven.png in Resources */,
+				A4D1BFD9171A802200BFC259 /* crunch.wav in Resources */,
+				A4D1BFDA171A802200BFC259 /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
